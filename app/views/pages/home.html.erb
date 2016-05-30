@@ -1,20 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Home</title>
-</head>
-<body>
-	<h1 align = "center" align = "top">Home</h1>
-	<p style = "width: 50%; float:left">
-		This is the first paragraph
-		<%= link_to 'About', about_path %>
-	</p>
+	<head>
+		<title>Home</title>
+		<h1>Welcome to Alpha Blog</h1>
+	</head>
 	
-	<p style = "width 50%; float:right" >
-		This is the second paragraph with some more text
-	</p>
-
-</body>
-
-
+	<body>
+		<p>
+			<%= link_to "Articles", articles_path %> || <%= link_to "About", about_path %>
+		</p>
+	</body>
 </html>
