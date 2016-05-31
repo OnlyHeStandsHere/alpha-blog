@@ -2,12 +2,23 @@
 <html>
 	<head>
 		<title>Home</title>
-		<h1>Welcome to Alpha Blog</h1>
+		<h1 id = "heading">Welcome to Alpha Blog</h1>
 	</head>
 	
 	<body>
+		<p id = "para">
+			This is a paragraph
+		</p>
+		
 		<p>
-			<%= link_to "Articles", articles_path %> || <%= link_to "About", about_path %>
+			This is some more text that is not in para	
+		</p>
+		
+		<p>
+			<ul id = "bottom">
+				<li><%= link_to "Articles", articles_path %></li>
+				<li><%= link_to "About", about_path %></li>
+			</ul>
 		</p>
 	</body>
 </html>
