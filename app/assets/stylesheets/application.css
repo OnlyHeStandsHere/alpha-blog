@@ -14,25 +14,3 @@
  *= require_self
  */
 
-#bottom {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline;
-}
-
-#heading {
-    text-align: center;
-    background-color: #4dcb8c;
-    font-size: 4.0em;
-    line-height: 200%
-    
-}
-
-#para {
-    background-color:  blue;
-    
-}

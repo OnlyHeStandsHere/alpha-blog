@@ -1,24 +1,10 @@
-<!DOCTYPE html>
-<html>
+
 	<head>
 		<title>Home</title>
-		<h1 id = "heading">Welcome to Alpha Blog</h1>
+		<div class = "center jumbotron">
+			<h1 id = "heading">Welcome to Alpha Blog</h1>
+			<%= link_to "Sign up now", "#", class: "btn btn-primary btn-lg", id: "signup"%>
+		</div>
+		
 	</head>
 	
-	<body>
-		<p id = "para">
-			This is a paragraph
-		</p>
-		
-		<p>
-			This is some more text that is not in para	
-		</p>
-		
-		<p>
-			<ul id = "bottom">
-				<li><%= link_to "Articles", articles_path %></li>
-				<li><%= link_to "About", about_path %></li>
-			</ul>
-		</p>
-	</body>
-</html>
